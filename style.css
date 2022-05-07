@@ -1,0 +1,286 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+    --color-nav:#ee2952;
+ /*    --font-color-nav:#000; */
+    --font-type:Verdana, Geneva, Tahoma, sans-serif;
+    --font-color:#fff;
+    --bg-nav:#dfe0da;
+}
+
+body{
+
+    font-family: var( --font-type);
+    color:var(--font-color-slogan);
+    background-color: #e0e0e0;
+}
+
+.wrp{
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.cortina{
+
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0, 0.4);
+    
+}
+
+nav{
+
+    width: 100%;
+    padding: 0.5rem;
+    color: #733570;
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    flex-direction: row;
+    text-shadow: 10px 10px 30px #fff,
+                -5px -5px 30px #fff
+}
+
+h1{
+    font-size: 4vw;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+h2{
+    font-size: 2.5vw;
+}
+
+.image{
+
+    width: 8%;
+    height: 105px;
+    background-image: url('img/logo.jfif');
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+    margin-left: 20px;
+    box-shadow: 10px 10px 30px #000,
+    -5px -5px 30px #000;
+}
+
+.slogan{
+
+    padding:1rem;
+    margin-top: 10%;
+    margin-bottom: 1%;
+    margin-left: 38px;
+    color: var(--font-color);
+    width: 40%; 
+}
+
+h2 {
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 2rem;
+    margin: 0 auto;
+    border-right: 0.15em solid #18bdec;
+    animation: typing 4s steps(38) 1s 1 normal both, blink 1s steps(1) infinite;
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+
+.intro{
+
+    width: 25%;
+    height: 55vh;
+    padding: 1.5rem;
+    color:var(--font-color-nav);
+    text-align:left;
+    margin-left: 36px;
+    color: var(--font-color);
+}
+
+ul{
+
+    list-style: none;
+}
+
+li{
+
+   padding: 0.5rem;
+    
+}
+
+
+.wrp2{
+
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    margin-top: 50px;
+    
+}
+
+.card{
+
+    width: 25%;
+    height:300px;
+    padding: 1rem;
+    margin: auto;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+         -20px -20px 60px #ffffff;
+    color: #733570;
+}
+
+.card-img{
+
+    width: 25%;
+    height:300px;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+         -20px -20px 60px #ffffff;
+    color: #733570;
+
+    background-image: url('img/tvdigital.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.wrp3{
+
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+
+.def{
+
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    margin-top: 30px;
+    color: #733570;
+    line-height:1.5 ;
+
+}
+
+.text{
+
+    width: 70%;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+.info-marcos{
+
+    width: 100%;
+    height: 250px;
+    padding: 1rem;
+    color: #733570;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.img-marcos{
+
+    background-image: url(img/marcos-pic.png);
+    background-position: center;
+    background-size: cover;
+    width: 8%;
+    height: 100px;
+    border-radius: 100%;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    background-color:var(--font-color);
+}
+
+.name{
+
+    margin-bottom: 10px;
+}
+
+footer{
+
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    background-color:#f9ebeb;
+
+}
+
+.icon{
+
+        width: 40px;
+        height: 40px;
+        margin-right: 40px;
+        border-radius: 10%;
+        
+}
+
+.icon:hover{
+
+    width: 45px;
+    height:45px;
+    transition: 0.1s ease;
+    margin-right: 36px;
+}
+
+.ws{
+
+ background-image: url(img/ws.png); 
+ background-position: center;   
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-color: #ffffff;
+
+}
+
+.face{
+
+    background-image: url(img/face.png); 
+    background-position: center;   
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.insta{
+
+    background-image: url(img/insta.png); 
+    background-position: center;   
+    background-size: cover;
+    background-repeat: no-repeat;
+}
